@@ -22,7 +22,7 @@ def readme():
 
 setup(
     name="masked-convolution",
-    version="0.1.0",
+    version="0.1.1",
     description="A PyTorch wrapper for masked convolutions",
     long_description=readme(),
     long_description_content_type="text/markdown",
@@ -40,7 +40,7 @@ setup(
     author="Miljenko Šuflaj",
     author_email="headsouldev@gmail.com",
     license="Apache License 2.0",
-    packages=["masked-convolution"],
+    packages=["masked_convolution"],
     include_package_data=True,
     zip_safe=False,
 )
