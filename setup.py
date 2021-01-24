@@ -14,26 +14,39 @@
 
 from setuptools import setup
 
+import benchmark
+import generate_readme
+
 
 def readme():
     with open("README.md") as f:
         return f.read()
 
 
+benchmark.main()
+generate_readme.main()
+
 setup(
     name="masked-convolution",
-    version="0.1.1",
+    version="0.3.0",
     description="A PyTorch wrapper for masked convolutions",
     long_description=readme(),
     long_description_content_type="text/markdown",
     classifiers=[
-        "Development Status :: 2 - Pre-Alpha",
+        "Development Status :: 3 - Alpha",
         "Environment :: GPU",
+        "Intended Audience :: Developers",
+        "Intended Audience :: Education",
+        "Intended Audience :: Information Technology",
         "Intended Audience :: Science/Research",
         "License :: OSI Approved :: Apache Software License",
         "Natural Language :: English",
+        "Operating System :: OS Independent",
+        "Programming Language :: Python :: 3 :: Only"
         "Programming Language :: Python :: 3.8",
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
+        "Topic :: Scientific/Engineering :: Information Analysis",
+        "Topic :: Scientific/Engineering :: Mathematics",
     ],
     keywords="pytorch torch convolution mask",
     url="http://github.com/suflaj/masked-convolution",
