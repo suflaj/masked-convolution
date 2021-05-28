@@ -14,21 +14,15 @@
 
 from setuptools import setup
 
-import benchmark
-import generate_readme
-
 
 def readme():
     with open("README.md") as f:
         return f.read()
 
 
-benchmark.main()
-generate_readme.main()
-
 setup(
     name="masked-convolution",
-    version="0.3.0",
+    version="0.3.1",
     description="A PyTorch wrapper for masked convolutions",
     long_description=readme(),
     long_description_content_type="text/markdown",
@@ -42,7 +36,7 @@ setup(
         "License :: OSI Approved :: Apache Software License",
         "Natural Language :: English",
         "Operating System :: OS Independent",
-        "Programming Language :: Python :: 3 :: Only"
+        "Programming Language :: Python :: 3 :: Only",
         "Programming Language :: Python :: 3.8",
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
         "Topic :: Scientific/Engineering :: Information Analysis",

@@ -60,7 +60,7 @@ Every build, automatic benchmarks are run in order to determine how much overhea
 
 Keep in mind that these benchmarks are in no way professional, they only serve to give users a general idea. Their results greatly differ, so they should be taken with a grain of salt.
 
-- Masked Convolution 1D: **79.90 %** Convolution 1D throughput
-- Masked Convolution 2D: **86.83 %** Convolution 2D throughput
-- Masked Convolution 3D: **96.78 %** Convolution 3D throughput
+- Masked Convolution 1D: **85.29 %** Convolution 1D throughput
+- Masked Convolution 2D: **85.64 %** Convolution 2D throughput
+- Masked Convolution 3D: **97.79 %** Convolution 3D throughput
 
